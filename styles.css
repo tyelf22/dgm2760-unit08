@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-image: 
+    linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(46, 49, 49, 0.73)),
+    url(./images/flag.jpg);
+    background-position: top;
+    height: 140px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header > h1,
+header > h2 {
+    display: absolute;
+    padding: 10px 2%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* MAIN */
+
+.main h2 {
+    margin: 10px;
+    color: #003B81;
+    font-size: 30px;
+}
+
+.main h3 {
+    margin: 10px 0 0 15px;
+    color: #DD1735;
+}
+
+.main ul {
+    margin-left: 15px;
+}
+
+.main li {
+    margin-left: 25px;
+}
+
+.wrapper {
+    height: 300px;
+    margin: 0 15px 0 15px;
+}
+
+.wrapper button {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+
+
+.main h4{
+    padding: 15px; 
+    background: #a9a9a9
+}
+
+
+/* FOOTER */
+
+footer{
+   position: fixed;
+   bottom: 0;
+   background: #003B81;
+   width: 100%;
+   height: 25px;
+   text-align: center;
+   line-height: 25px;
+   color: white;
+}
+
